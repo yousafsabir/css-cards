@@ -6,3 +6,70 @@
     box-sizing: border-box;
     font-family: "DM Mono", monospace;
 }
+
+body {
+    background-color: rgb(106, 64, 33);
+}
+
+.card-list {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.card {
+    max-width: 400px;
+    min-width: 250px;
+    height: 350px;
+    padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    margin-right: -130px;
+    box-shadow: -1rem 0 3rem #000;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.card:last-child {
+    margin-right: 0;
+}
+.card:hover {
+    transform: translateY(-1rem);
+    -webkit-transform: translateY(-1rem);
+    -moz-transform: translateY(-1rem);
+    -ms-transform: translateY(-1rem);
+    -o-transform: translateY(-1rem);
+}
+
+.card:hover ~ .card {
+    transform: translateX(135px);
+    -webkit-transform: translateX(135px);
+    -moz-transform: translateX(135px);
+    -ms-transform: translateX(135px);
+    -o-transform: translateX(135px);
+}
+.card1 {
+    background: url("https://i.imgflip.com/26jxvz.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.card2 {
+    background: url("https://i.imgflip.com/2fm6x.jpg") center no-repeat;
+    background-size: cover;
+}
+.card3 {
+    background: url("https://i.imgflip.com/9ehk.jpg");
+    background-size: cover;
+}
+.card4 {
+    background: url("https://i.imgflip.com/28j0te.jpg");
+    background-size: cover;
+}
+.card5 {
+    background: url("https://i.imgflip.com/46e43q.png");
+    background-size: cover;
+}
